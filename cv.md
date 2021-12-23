@@ -4,7 +4,7 @@
 * Location: Kaliningrad, Russia
 * Phone: +7 000 00 000 00
 * Email: rmwk39@gmail.com
-* GitHub: [alesinya]("https://github.com/alesinya")
+* GitHub: [alesinya](https://github.com/alesinya)
 ----
 ## About Me
  I'm 31. I worked for five years in my specialty after university, but it is very boring and monotonous. I am interested in the specialty of a programmer, because I want to work remotely while communicating with people from all over the world. I am very sociable, easily communicating with people and easily learning a new one.
@@ -37,7 +37,7 @@ console.log(`The value of b after swapping: ${b}`);
 ```
 ----
 ## Experience
-* tutorial project: [mail-genius]("https://github.com/alesinya/mail-genius")
+* tutorial project: [mail-genius](https://github.com/alesinya/mail-genius)
 ----
 ## Education
 * **University**: Kaliningrad State Technical University, economist
