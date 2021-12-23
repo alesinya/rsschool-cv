@@ -58,13 +58,14 @@ console.log(`The value of b after swapping: ${b}`);
 
 * **University**: Kaliningrad State Technical University, economist
 * **Courses**:
-1. HTML Academy: 
-    - Getting to Know Web Development
-2. Udemy:
-    - Basics HTML/CSS
-    - Basics JavaScript
-3. Hexlet:
-    - HTML/CSS
+
+  1. HTML Academy: 
+     - Getting to Know Web Development
+  2. Udemy:
+     - Basics HTML/CSS
+     - Basics JavaScript
+  3. Hexlet:
+     - HTML/CSS
 
 ----
 
