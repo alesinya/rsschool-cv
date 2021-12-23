@@ -7,7 +7,7 @@
 * GitHub: [https://github.com/alesinya]("alesinya")
 ----
 ## About Me
- I'm 31. After university, I worked for five years in my specialty, but it is very boring and monotonous. I am interested in the specialty of a programmer, because I want to work remotely while communicating with people from all over the world.
+ I'm 31. After university, I worked for five years in my specialty, but it is very boring and monotonous. I am interested in the specialty of a programmer, because I want to work remotely while communicating with people from all over the world. I am very sociable, easily communicating with people and easily learning a new one.
 
 ----
 ## Skills
