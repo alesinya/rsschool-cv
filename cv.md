@@ -37,7 +37,7 @@ console.log(`The value of b after swapping: ${b}`);
 ```
 ----
 ## Experience
-* tutorial project: [mail-genius](https://github.com/alesinya/mail-genius)
+* tutorial project: [mail-genius](https://alesinya.github.io/mail-genius)
 ----
 ## Education
 * **University**: Kaliningrad State Technical University, economist
