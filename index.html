@@ -1,28 +1,147 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="style.css">
-  <link rel="icon" href="assets/favicon.ico">
-  <title>CV</title>
-</head>
-<body>
-  <header>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" href="assets/favicon.ico" />
+    <title>CV</title>
+  </head>
+  <body>
     <div class="container">
-      <div class="name">
-        <h1>Alesya Litskevich</h1>
-        <h2></h2>
-      </div>
-      <div class="foto"></div>
+      <header>
+        <nav class="nav">
+          <ul class="nav-list">
+            <li class="nav-item"><a href="#contacts" class="link-item">Contacts</a></li>
+            <li class="nav-item"><a href="#skills" class="link-item">Skills</a></li>
+            <li class="nav-item"><a href="#language" class="link-item">Language</a></li>
+            <li class="nav-item"><a href="#about-me" class="link-item">About Me</a></li>
+            <li class="nav-item"><a href="#code-example" class="link-item">Code example</a></li>
+            <li class="nav-item"><a href="#experience" class="link-item">Experience</a></li>
+            <li class="nav-item"><a href="#education" class="link-item">Education</a></li>
+          </ul>
+        </nav>
+      </header>
+      <main>
+        <div class="header-title">
+          <div class="foto">
+            <img src="/Me.jpg" alt="My foto" class="my-foto" />
+          </div>
+          <div class="name">
+            <h1>Alesya Litskevich</h1>
+            <h2>Front-End developer</h2>
+          </div>
+        </div>
+        <div class="content">
+          <div class="left-block">
+            <div class="contacts" id="contacts">
+              <h3>Contacts</h3>
+              <ul>
+                <li>Location: Kaliningrad, Russia</li>
+                <li>VK: <a href="https://vk.com/alesi">vk.com/alesi</a></li>
+                <li>Email: rmwk39@gmail.com</li>
+                <li>
+                  GitHub:<a href="https://github.com/alesinya"
+                    >github.com/alesinya</a
+                  >
+                </li>
+              </ul>
+            </div>
+            <div class="skills" id="skills">
+              <h3>Skills</h3>
+              <ul class="list-skills">
+                <li><span>- HTML</span></li>
+                <li><span>- CSS</span></li>
+                <li><span>- JavaScript</span></li>
+                <li><span>- Git</span></li>
+                <li><span>- Visual Studio Code</span></li>
+                <li><span>- GitHub</span></li>
+              </ul>
+            </div>
+            <div class="language" id="language">
+              <h3>Language</h3>
+              <p>English level: pre-intermediate</p>
+            </div>
+          </div>
+          <div class="right-block">
+            <div class="about-me" id="about-me">
+              <h3>About Me</h3>
+              <p class="about-me-text">
+                I worked for five years in my specialty after university, but it
+                is very boring and monotonous. I am interested in the specialty
+                of a programmer, because I want to work remotely while
+                communicating with people from all over the world. I am very
+                sociable, easily communicating with people and easily learning a
+                new one.
+              </p>
+            </div>
+            <div class="code-example" id="code-example">
+              <h3>Code example</h3>
+              <pre>
+                <code>
+                //JavaScript program to swap two variables 
+                //take input from the users 
+                let a = parseInt(prompt('Enter the first variable:')); 
+                let b = parseInt(prompt('Enter the second variable: ')); 
+                
+                //addition and subtraction operator 
+                a = a + b; 
+                b = a - b; 
+                a = a -b; 
+                console.log(`The value of a after swapping: ${a}`);
+                console.log(`The value of b after swapping: ${b}`);
+                </code>
+              </pre>
+            </div>
+            <div class="experience" id="experience">
+              <h3>Experience</h3>
+              <p>
+                Tutorial project:
+                <a href="https://alesinya.github.io/mail-genius/"
+                  >mail-genius</a
+                >
+              </p>
+            </div>
+            <div class="education" id="education">
+              <h3>Education</h3>
+              <ul>
+                <li>
+                  <h4>HTML Academy:</h4>
+                  <ul>
+                    <li>- Getting to Know Web Development</li>
+                  </ul>
+                </li>
+                <li>
+                  <h4>Udemy:</h4>
+                  <ul>
+                    <li>- Getting to Know Web Development</li>
+                    <li>- Basics HTML/CSS</li>
+                    <li>- Basics JavaScript</li>
+                  </ul>
+                </li>
+                <li>
+                  <h4>Hexlet:</h4>
+                  <ul>
+                    <li>- HTML/CSS</li>
+                  </ul>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </main>
+      <footer>
+        <div class="footer">
+          <a href="https://rs.school/js/"
+            ><img src="/rs-logo.svg" alt="RS-School" class="logo-rs"
+          /></a>
+          <span class="data">2021</span>
+          <a href="https://github.com/alesinya"
+            ><img src="/icons8-github.svg" alt="github" class="logo-github"
+          /></a>
+        </div>
+      </footer>
     </div>
-  </header>
-  <main>
-    <div class="container"></div>
-  </main>
-  <footer>
-    <div class="container"></div>
-  </footer>
-</body>
+  </body>
 </html>
