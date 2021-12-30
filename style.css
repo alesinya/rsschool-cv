@@ -1,3 +1,153 @@
-h1 {
-  color: black;
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  font-family: Arial, sans-serif;
+}
+
+ul {
+  list-style: none;
+}
+
+li {
+  padding-bottom: 10px;
+}
+
+h3 {
+  padding-bottom: 10px;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(15, 92, 27);
+}
+
+a:hover {
+  color:#7f48e4;
+  font-weight:bold
+}
+
+.container {
+  background: linear-gradient(
+    to right,
+    rgb(218, 221, 220) 30%,
+    rgb(245, 244, 242) 0
+  );
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.nav {
+  display: block;
+  background: rgb(182, 184, 184);
+}
+
+.nav-list {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 10px;
+}
+
+.nav-item {
+  white-space: nowrap;
+  font: bold 15px Arial, sans-serif;
+}
+
+.link-item {
+  color: #000;
+}
+
+.my-foto {
+  display: block;
+  width: 225px;
+  height: 225px;
+  border-radius: 50%;
+}
+
+.header-title {
+  display: flex;
+}
+
+.name {
+  width: 70%;
+  padding: 50px;
+}
+
+.foto {
+  width: 30%;
+  padding-left: 60px;
+  padding-top: 20px;
+}
+
+.content {
+  display: flex;
+}
+
+.left-block {
+  width: 30%;
+}
+
+.contacts {
+  margin: 50px;
+}
+
+.skills {
+  margin: 50px;
+}
+
+.list-skills {
+  list-style: none;
+}
+
+.language {
+  margin: 50px;
+}
+
+.right-block {
+  width: 70%;
+  padding: 50px;
+}
+
+.about-me-text {
+  line-height: 28px;
+}
+
+.code-example {
+  padding-top: 40px;
+}
+
+.experience {
+  padding-top: 40px;
+}
+
+.education {
+  padding-top: 40px;
+}
+
+.footer {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  align-items: center;
+  padding: 20px 60px 20px 200px;
+}
+
+.footer-content {
+  justify-content: center;
+}
+
+.logo-rs {
+  width: 150px;
+}
+
+.logo-github {
+  width: 80px;
+}
+
+.data {
+  font: bold 35px Arial, sans-serif;
 }
